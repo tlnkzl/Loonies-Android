@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Loonies</string>
     <string name="welcome_message">Welcome</string>
-    <string name="email_or_username">Email/Username</string>
+    <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="sign_in_btn">LOGIN</string>
     <string name="sign_up_btn">SIGN UP</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="login_alert_text">Login failed try again.</string>
+    <string name="logout">Logout</string>
 </resources>

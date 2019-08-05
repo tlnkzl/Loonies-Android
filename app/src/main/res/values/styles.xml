@@ -13,56 +13,19 @@
     </style>
 
 
-    <style name="transparentRatingBar" parent="Theme.AppCompat">
-        <item name="colorControlNormal">@android:color/white</item>
-        <item name="colorControlActivated">@android:color/transparent</item>
+    <style name="authTheme" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@android:color/darker_gray</item>
     </style>
 
-
-    <style name="orangeRatingBar" parent="Theme.AppCompat">
-        <item name="colorControlNormal">@color/white</item>
-        <item name="colorControlActivated">@color/pumpkin</item>
-    </style>
-
-    <style name="greenRatingBar" parent="Theme.AppCompat">
-        <item name="colorControlNormal">@color/white</item>
-        <item name="colorControlActivated">@color/carribeanGreen</item>
-    </style>
-
-    <style name="blueRatingBar" parent="Theme.AppCompat">
-        <item name="colorControlNormal">@color/white</item>
-        <item name="colorControlActivated">@color/spirodiscoball</item>
-    </style>
-
-    <style name="redRatingBar" parent="Theme.AppCompat">
-        <item name="colorControlNormal">@color/white</item>
-        <item name="colorControlActivated">@color/awesomepink</item>
-    </style>
 
     <style name="progressBar" parent="ThemeOverlay.AppCompat.Light">
         <item name="colorAccent">@color/pumpkin</item>
-    </style>
-
-
-
-    <style name="green_progress" parent="ThemeOverlay.AppCompat.Light">
-        <item name="colorAccent">@color/caribbeangreen</item>
     </style>
 
     <style name="buttonProgress" parent="ThemeOverlay.AppCompat.Light">
         <item name="colorAccent">@color/darkjunglegreen_6</item>
     </style>
 
-    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
-        <item name="colorSwitchThumbNormal">@color/switchBg</item>
-        <item name="android:colorForeground">@color/switchBg</item>
-    </style>
-
-    <style name="SwitchGreen" parent="Theme.AppCompat.Light">
-        <item name="colorSwitchThumbNormal">#00FFAD</item>
-        <item name="android:colorForeground">#00FFAD</item>
-        <item name="android:colorControlActivated">#00FFAD</item>
-    </style>
 
     <style name="Widget.App.Spinner" parent="@style/Widget.AppCompat.Spinner">
         <item name="overlapAnchor">true</item>
@@ -106,18 +69,18 @@
 
     </style>
 
-    <style name="NumberPickerText">
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColorPrimary">@color/white</item>
-        <item name="colorControlNormal">#00FFAD</item>
+
+    <style name="progress_dialog_transparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
     </style>
-
-
-    <style name="CardNumberPickerText">
-        <item name="android:textSize">20sp</item>
-    </style>
-
-
 
 
 </resources>
