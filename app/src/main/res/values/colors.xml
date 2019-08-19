@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <color name="darkjunglegreen">#0b1528</color>
+
+    <color name="colorPrimary">#06112e</color>
+    <color name="colorAccent">#2b49a6</color>
+    <color name="orange">#ff7420</color>
+    <color name="white">#ffffff</color>
+    <color name="onyx">#010912</color>
     <color name="pumpkin">#FF7420</color>
     <color name="black">#000000</color>
+    <color name="red">#FF2048</color>
+    <color name="darkjunglegreen">#0b1528</color>
     <color name="mediumspringgreen">#00ffad</color>
     <color name="caribbeangreen">#00D591</color>
     <color name="awesomepink">#ff2048</color>
-    <color name="onyx">#010912</color>
     <color name="spirodiscoball">#10c4e7</color>
     <color name="spirodiscoball_1">#10c4e8</color>
     <color name="mediumjunglegreen">#31363b</color>
@@ -14,31 +20,39 @@
     <color name="mediumtealblue">#0053B6</color>
     <color name="darkjunglegreen_6">#111b2f</color>
     <color name="carribeanGreen">#FF00D591</color>
-    <color name="colorPrimary">#06112e</color>
-    <color name="colorAccent">#2b49a6</color>
     <color name="splashBackground">#08152B</color>
-    <color name="redd">#FF2048</color>
     <color name="mainContainer">#060d1b</color>
     <color name="buttonTextPressed">#070f1e</color>
     <color name="buttonTextUnpressed">#00faaa</color>
-    <color name="light_gray">#999999</color>
-    <color name="textHighlight">#fff</color>
-    <color name="textHighlightLink">#00ffad</color>
     <color name="transparent">#CC072f3f</color>
-    <color name="orange">#ff7420</color>
-    <color name="white">#ffffff</color>
     <color name="cardBackground">#0b1527</color>
     <color name="container">#070f1e</color>
-    <color name="textColor60">#99ffffff</color>
-    <color name="textColor80">#CCffffff</color>
-    <color name="textColor100">#ffffffff</color>
-    <color name="titleTextColor">#00ffad</color>
-    <color name="toolbar">#FF010A13</color>
-    <color name="editTextColor">#00D591</color>
     <color name="dialogBg">#C000</color>
     <color name="switchBg">#ffffff</color>
     <color name="tableBg">#060f1e</color>
     <color name="transGreen">#8000ffad</color>
+    <color name="toolbar">#FF010A13</color>
+
+
+    <color name="dark_purple">#59499E</color>
+    <color name="sky_blue">#35BEE0</color>
+    <color name="pastel_green">#5CBA47</color>
+    <color name="light_purple">#8589EF</color>
+    <color name="pastel_pink">#FF6EA1</color>
+    <color name="pastel_yellow">#FFC611</color>
+    <color name="light_green">#18CEBB</color>
+    <color name="dark_blue">#003D6B</color>
+    <color name="ice_blue">#AACDEE</color>
+    <color name="gray">#999999</color>
+    <color name="light_gray">#D5D8F0</color>
+
+
+    <color name="textColor60">#99ffffff</color>
+    <color name="textColor80">#CCffffff</color>
+    <color name="textColor100">#ffffffff</color>
+    <color name="textHighlight">#fff</color>
+    <color name="textHighlightLink">#00ffad</color>
+    <color name="titleTextColor">#00ffad</color>
+    <color name="editTextColor">#00D591</color>
 
 </resources>
-

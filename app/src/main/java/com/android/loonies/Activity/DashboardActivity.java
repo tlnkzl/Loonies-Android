@@ -1,17 +1,23 @@
 package com.android.loonies.Activity;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
+import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.loonies.R;
 
 public class DashboardActivity extends AppCompatActivity {
+
+    TextView test;
+
     @Override
-    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_dashboard);
+
+        test = findViewById(R.id.dashboard_text);
+
     }
 }
