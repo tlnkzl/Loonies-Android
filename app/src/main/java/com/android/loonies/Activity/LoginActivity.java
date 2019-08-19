@@ -36,14 +36,14 @@ public class LoginActivity  extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
-                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                 Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
                  startActivity(intent);
             }
         });
 
 
-        email = emailText.getText().toString().trim();
-        password = passwordText.getText().toString();
+       // email = emailText.getText().toString().trim();
+      //  password = passwordText.getText().toString();
 
 
     }
@@ -56,7 +56,7 @@ public class LoginActivity  extends AppCompatActivity {
 
         alertContainer = findViewById(R.id.container_alert);
         errorText = findViewById(R.id.text_error);
-        emailText = findViewById(R.id.edit_emailText);
+        emailText = findViewById(R.id.edit_email);
         loginButton = findViewById(R.id.button_login);
         signUpButton = findViewById(R.id.text_sign_up);
         forgotPasswordText = findViewById(R.id.text_forgot_password);
