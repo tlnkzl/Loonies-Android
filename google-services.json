@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1009230396804",
+    "firebase_url": "https://loonies-android.firebaseio.com",
+    "project_id": "loonies-android",
+    "storage_bucket": "loonies-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009230396804:android:bc4f5edc6657f8e9",
+        "android_client_info": {
+          "package_name": "com.android.loonies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009230396804-m72pv3tmvdsh6c1k3qeh8a1snvhcd2ic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.loonies",
+            "certificate_hash": "cbf679e417cecffa2622c27f490a7160120d826b"
+          }
+        },
+        {
+          "client_id": "1009230396804-r0o8kn5kka29vtjpfh58r79psktmic9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf4z-Tshf546F5x5QSm5NSpajXFVq5l9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009230396804-r0o8kn5kka29vtjpfh58r79psktmic9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
